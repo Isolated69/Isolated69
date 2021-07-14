@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+	<link rel="icon" href="./icons/tree-solid.ico" type="image/x-icon">     
+	<title>LebCrypto | Home</title>
+</head>
+<body>
+
+<div class="nav">
+	<div class="nav-content flex flex-row">
+		<h1><i class="fas fa-tree leb-green"></i><span class="red-span">LebCrypto</span></h1>
+
+		<ul class="left-menu flex">
+			<li><i class="fas fa-home"></i><a class="nav-link" href="home.html">Home</a></li>
+			<li><i class="fas fa-chart-line"></i><a class="nav-link" href="markets.html">Markets</a></li>
+			<li><i class="fas fa-shopping-cart"></i><a class="nav-link" href="#">Buy Crypto<span class="currency-type">USD</span></a></li>
+			<li>
+				<div class="dropdown">
+					<i class="fas fa-th"></i>
+					<div class="drop-content">
+						<a href="#">NFT</a>
+						<a href="#">Crates</a>
+						<a href="#">Research</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+
+		<ul class="right-menu flex">
+			<li><i class="fas fa-wallet"></i><a class="nav-link" href="#">My Wallet</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="container">
+	
+	<!--  Registration -->
+	<div class="registration flex flex-column">
+		<h1>Buy & Sell Crypto in seconds</h1>
+		<p>Join Lebanon's First Crypto Exchange</p>
+		<a href="#" class="btn">Register</a>
+		<a class="login-link" href="#">Already have an account?</a>
+	</div>
+
+
+	<!-- Coin prices -->
+	<div class="coins grid grid-5 grid-center">
+		<div>
+			<h3>BTC<span class="coin-buy-with">/USDT</span><span class="coin-percentage positive number">+7.89%</span></h3>
+			<span class="number">
+				<h2 id="btc-price">0</h2>
+				<p class="muted">$36,456.1</p>
+			</span>
+		</div>
+
+		<div>
+			<h3>DOGE<span class="coin-buy-with">/USDT</span><span class="coin-percentage negative number">-0.34%</span></h3>
+			<span class="number">
+				<h2 id="doge-price">0</h2>
+				<p class="muted">$2.7</p>
+			</span>
+		</div>
+
+		<div>
+			<h3>ETH<span class="coin-buy-with">/USDT</span><span class="coin-percentage negative number">-2.69%</span></h3>
+			<span class="number">
+				<h2 id="eth-price">0</h2>
+				<p class="muted">$56.5</p>
+			</span>
+		</div>
+
+		<div>
+			<h3>ADA<span class="coin-buy-with">/USDT</span><span class="coin-percentage positive number">+9.78%</span></h3>
+			<span class="number">
+				<h2 id="ada-price">0</h2>
+				<p class="muted">$34.8</p>
+			</span>
+		</div>
+
+		<div>
+			<h3>XMR<span class="coin-buy-with">/USDT</span><span class="coin-percentage negative number">-2.01%</span></h3>
+			<span class="number">
+				<h2 id="xmr-price">0</h2>
+				<p class="muted">$206.04</p>
+			</span>
+		</div>
+
+	</div>
+
+
+	<!-- News -->
+	<div class="news">
+		<h1>News</h1>
+		<div class="news-imgs grid grid-4 grid-center">
+			<div>
+				<img src="#">
+			</div>
+
+			<div>
+				<img src="#">
+			</div>
+
+			<div>
+				<img src="#">
+			</div>
+
+			<div>
+				<img src="#">
+			</div>
+		</div>
+		<span>
+			<i class="fas fa-arrow-left fa-2x arrows"></i>
+			<i class="fas fa-arrow-right fa-2x arrows"></i>
+		</span>
+		<p class="more">More <i class="fas fa-chevron-right"></i></p>
+	</div>
+
+
+	<!-- MARKETS -->
+	<div class="markets">
+		<h1>Market trends</h1>
+		<div class="titles grid grid-center grid-custom-1">
+			<h2>Name</h2>
+			<h2>Last Price</h2>
+			<h2>24h Change</h2>
+			<h2>Markets</h2>
+		</div>
+
+
+		<div class="contents light-text">
+			<div class="content grid grid-center grid-custom-1">
+				<h2><i class="fas fa-circle"></i>BTC <span class="small muted">Bitcoin</span></h2>
+				<h2 class="number">$35,345</h2>
+				<h2 class="number negative">-4.90%</h2>
+				<h2>NA</h2>
+			</div>
+
+
+		<div class="content grid grid-center grid-custom-1">
+			<h2><i class="fas fa-circle"></i>ETH <span class="small muted">Ethereum</span></h2>
+			<h2 class="number">$5,784</h2>
+			<h2 class="number positive">+11.2%</h2>
+			<h2>NA</h2>
+		</div>
+
+		</div>
+	</div>
+
+	<!-- Downloads -->
+	<div class="downloads">
+		<h1>Download & Trade</h1>
+		<div class="grid grid-1-2">
+
+			<div class="donwload-first">
+				<h2>Donwload <span class="red-hue">LEBIANCE</span></h2>
+				<a class="btn">Download <i class="fab fa-windows"></i></a>
+			</div>
+
+			<div class="download grid grid-3">
+				<div>
+					<i class="fab fa-android"></i>
+					<a href="#">Android</a>
+				</div>
+
+				<div>
+					<i class="fab fa-apple"></i>
+					<a href="#">Apple</a>
+				</div>
+
+				<div>
+					<i class="fab fa-google-play"></i>
+					<a href="#">Google Play</a>
+				</div>
+
+				<div>
+					<i class="fab fa-windows"></i>
+					<a href="#">Windows</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="footer grid grid-4 grid-center">
+	<div>
+		<h2>Learn</h2>
+		<ul>
+			<li><a href="#">Buy LEB</a></li>
+			<li><a href="#">Buy BTC</a></li>
+			<li><a href="#">Buy DOGE</a></li>
+			<li><a href="#">Buy MATIC</a></li>
+			<li><a href="#">Buy ETH</a></li>
+			<li><a href="#">Buy ADA</a></li>
+			<li><a href="#">Buy XLM</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>Services</h2>
+		<ul>
+			<li><a href="#">Customer Support</a></li>
+			<li><a href="#">Help</a></li>
+			<li><a href="#">Downloads</a></li>
+			<li><a href="#">Lebiance Card</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>Rules</h2>
+		<ul>
+			<li><a href="#">TOS</a></li>
+			<li><a href="#">Fees</a></li>
+			<li><a href="#">Futures</a></li>
+			<li><a href="#">Margins</a></li>
+			<li><a href="#">Events</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<h2>Community</h2>
+		<ul class="flex flex-center spaced">
+			<li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+			<li><a class="youtube" href="#"><i class="fab fa-youtube"></i></a></li>
+			<li><a class="orange" href="#"><i class="fab fa-reddit"></i></a></li>
+			<li><a class="github" href="#"><i class="fab fa-github"></i></a></li>
+		</ul>
+	</div>
+
+</footer>
+
+<div class="under-footer grid grid-center">
+	<h1 class="muted flex flex-row"><address>LebCrypto &copy; 2021.All Rights Reserved</address></h1>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
